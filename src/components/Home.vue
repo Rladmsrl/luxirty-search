@@ -1,8 +1,5 @@
 <template>
   <div class="home">
-    <div class="about">
-      <a href="https://luxirty.com/posts/luxirty-search/" target="_blank">关于</a>
-    </div>
     <div class="logo">
       Luxirty Search
     </div>
@@ -11,14 +8,6 @@
     </div>
     
     <!-- 添加页脚 -->
-    <footer>
-      <p>
-        &copy; Create by <a href="https://luxirty.com/about/" target="_blank">Luxirty</a> with Love |
-        Open Source on <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          GitHub
-        </a>
-      </p>
-    </footer>
   </div>
 </template>
 
