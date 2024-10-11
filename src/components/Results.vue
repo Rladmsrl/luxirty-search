@@ -7,14 +7,6 @@
     <div class="search-result-zone">
       <div class="gcse-searchresults" data-linkTarget="_blank" data-refinementStyle="link"></div>
     </div>
-    <footer>
-      <p>
-        &copy; Create by <a href="https://luxirty.com/posts/luxirty-search/" target="_blank">Luxirty</a> with &hearts; |
-        Open Source on <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          GitHub
-        </a>
-      </p>
-    </footer>
   </div>
 </template>
 
