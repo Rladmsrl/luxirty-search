@@ -29,7 +29,7 @@
 
 本项目并不复杂，只需要基础的前端知识 (css + js) 即可看懂本项目。
 
-下面是两个较简单的切入点，可以尝试从这里入手。
+下面是几个较简单的切入点，可以尝试从这里入手。
 
 ### 优化样式
 本项目最大的作用其实是美化 cse 那个上古默认样式，我进行了基础的调整、暗黑适配、移动端适配，但肉眼可见的还有很多问题 Orz。
@@ -53,6 +53,9 @@
 
 2. 加入自动翻页（这个还不知道怎么实现）
 
+### 经验分享
+
+如果你在你的博客中介绍了本项目，欢迎将链接分享到issue，如果内容对其它使用本项目的用户有帮助(较为详细的介绍/部署教程/或其它任意有帮助的内容),我们会将您的文章链接添加到readme中。
 
 ## 原理
 
@@ -117,6 +120,16 @@ pnpm build
 
 
 # 更新记录
-- 加快了启动速度 - 现在超级快
+- 加快了启动速度
 - 添加了移除搜索结果中的跟踪链接 data-ct*
 - 移除了文字阴影
+
+## Star History
+
+<a href="https://star-history.com/#KoriIku/luxirty-search&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=KoriIku/luxirty-search&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=KoriIku/luxirty-search&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=KoriIku/luxirty-search&type=Date" />
+ </picture>
+</a>
