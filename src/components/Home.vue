@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="logo">
-      Luxirty Search
+      Search
     </div>
     <div class="search-container">
       <div class="gcse-searchbox-only" data-resultsUrl="search"></div>
