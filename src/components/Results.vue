@@ -116,52 +116,49 @@ export default {
 
 :deep(.gsc-search-box) {
   margin-bottom: 0 !important;
-  display: flex !important;
-  align-items: center !important;
 }
 
 :deep(.gsc-input-box) {
-  border-radius: 8px 0 0 8px !important; /* 左侧圆角 */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
-  border: 1px solid #e2e8f0 !important;
-  border-right: none !important; /* 移除右侧边框 */
-  transition: all 0.3s ease !important;
-  height: 40px !important; /* 固定高度 */
-  display: flex !important;
-  align-items: center !important;
+  border-radius: 24px !important; /* 圆角搜索框 */
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.12) !important;
+  border: 1px solid #dfe1e5 !important;
+  height: 44px !important;
+  transition: all 0.2s ease !important;
+  background-color: #fff !important;
 }
 
 :deep(.gsc-input) {
-  padding: 0 12px !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
+  padding-left: 14px !important;
 }
 
 :deep(.gsc-input-box:focus-within) {
-  box-shadow: 0 2px 10px rgba(94, 129, 172, 0.2) !important;
-  border-color: #5e81ac !important;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28) !important;
+  border-color: rgba(223, 225, 229, 0) !important;
 }
 
 :deep(.gsc-search-button-v2) {
-  border-radius: 0 8px 8px 0 !important; /* 右侧圆角 */
-  padding: 0 16px !important;
-  margin-left: 0 !important; /* 移除左边距 */
-  background-color: #3366cc !important; /* 与链接颜色匹配 */
-  border: 1px solid #3366cc !important;
-  border-left: none !important; /* 移除左侧边框 */
-  height: 40px !important; /* 与输入框相同高度 */
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  transition: background-color 0.2s ease !important;
+  border-radius: 24px !important;
+  padding: 10px !important;
+  margin-left: 8px !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #f8f9fa !important;
+  height: 44px !important;
+  min-width: 44px !important;
+  color: #5f6368 !important;
+  transition: all 0.2s ease !important;
 }
 
 :deep(.gsc-search-button-v2:hover) {
-  background-color: #1a53ff !important; /* 与链接悬停颜色匹配 */
+  background-color: #f1f3f4 !important;
+  border-color: #dadce0 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
 }
 
 :deep(.gsc-search-button-v2 svg) {
-  width: 16px !important;
-  height: 16px !important;
+  width: 24px !important;
+  height: 24px !important;
+  fill: #4285f4 !important; /* Google蓝色 */
 }
 
 /* 搜索结果区域样式 */
@@ -260,14 +257,14 @@ export default {
   }
 
   :deep(.gsc-input-box) {
-    background-color: #3b4252 !important;
-    border-color: #4c566a !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+    background-color: #202124 !important;
+    border-color: #3c4043 !important;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18) !important;
   }
 
   :deep(.gsc-input) {
     background-color: transparent !important;
-    color: #e5e9f0 !important;
+    color: #e8eaed !important;
   }
 
   :deep(.gs-title) {
@@ -310,19 +307,23 @@ export default {
   }
   
   :deep(.gsc-input-box:focus-within) {
-    border-color: #88ccff !important;
-    box-shadow: 0 2px 10px rgba(136, 204, 255, 0.2) !important;
+    box-shadow: 0 1px 6px rgba(138, 180, 248, 0.28) !important;
+    border-color: #8ab4f8 !important;
   }
   
   :deep(.gsc-search-button-v2) {
-    background-color: #88ccff !important;
-    border-color: #88ccff !important;
-    color: #2e3440 !important;
+    background-color: #303134 !important;
+    border-color: #303134 !important;
+    color: #e8eaed !important;
   }
 
   :deep(.gsc-search-button-v2:hover) {
-    background-color: #aaddff !important;
-    border-color: #aaddff !important;
+    background-color: #3c4043 !important;
+    border-color: #5f6368 !important;
+  }
+  
+  :deep(.gsc-search-button-v2 svg) {
+    fill: #8ab4f8 !important;
   }
 }
 </style>
