@@ -153,23 +153,43 @@ export default {
 }
 
 :deep(.gs-title) {
-  color: #5e81ac !important;
+  color: #3366cc !important; /* 更鲜明的蓝色链接 */
   text-decoration: none !important;
   transition: color 0.2s ease !important;
+  font-weight: 500 !important; /* 稍微加粗 */
 }
 
 :deep(.gs-title:hover) {
-  color: #4c7195 !important;
+  color: #1a53ff !important; /* 悬停时更深的蓝色 */
   text-decoration: underline !important;
 }
 
 :deep(.gs-snippet) {
   line-height: 1.6 !important;
-  color: #4c566a !important;
+  color: #333333 !important; /* 深灰色用于正文，提高可读性 */
+  font-size: 14px !important; /* 适当调整大小 */
 }
 
 :deep(.gs-visibleUrl) {
-  color: #a3be8c !important;
+  color: #2e8b57 !important; /* 海绿色用于 URL，更加清晰 */
+  font-size: 13px !important;
+}
+
+/* 分页控件美化 */
+:deep(.gsc-cursor-page) {
+  color: #3366cc !important;
+  padding: 6px 12px !important;
+  border-radius: 4px !important;
+  transition: all 0.2s ease !important;
+}
+
+:deep(.gsc-cursor-page:hover) {
+  background-color: rgba(51, 102, 204, 0.1) !important;
+}
+
+:deep(.gsc-cursor-current-page) {
+  background-color: #3366cc !important;
+  color: white !important;
 }
 
 /* 针对小屏幕的样式 */
@@ -229,27 +249,42 @@ export default {
   }
 
   :deep(.gs-title) {
-    color: #88c0d0 !important;
+    color: #88ccff !important; /* 更亮的蓝色在暗色模式下 */
   }
 
   :deep(.gs-title:hover) {
-    color: #8fbcbb !important;
+    color: #aaddff !important; /* 悬停时的亮蓝色 */
   }
 
   :deep(.gs-snippet) {
-    color: #d8dee9 !important;
+    color: #cccccc !important; /* 浅灰色文本，更好的对比度 */
   }
 
   :deep(.gs-visibleUrl) {
-    color: #a3be8c !important;
+    color: #6bcc8b !important; /* 亮一点的绿色 */
   }
-
+  
+  /* 暗黑模式下的分页控件 */
+  :deep(.gsc-cursor-page) {
+    color: #88ccff !important;
+    background-color: rgba(46, 52, 64, 0.8) !important;
+  }
+  
+  :deep(.gsc-cursor-page:hover) {
+    background-color: rgba(136, 204, 255, 0.2) !important;
+  }
+  
+  :deep(.gsc-cursor-current-page) {
+    background-color: #88ccff !important;
+    color: #2e3440 !important; /* 深色背景 */
+  }
+  
   :deep(.gsc-search-button-v2) {
-    background-color: #5e81ac !important;
+    background-color: #81a1c1 !important;
   }
 
   :deep(.gsc-search-button-v2:hover) {
-    background-color: #81a1c1 !important;
+    background-color: #a1c5e7 !important;
   }
 }
 </style>
